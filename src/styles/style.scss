@@ -1,6 +1,6 @@
-@import '~normalize.css';
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 @import './colors';
+// @import '~normalize.css';
+// @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
 *,
 *:before,
@@ -57,9 +57,9 @@ a {
   }
 }
 
-@import './module/01_header.scss';
-@import './module/02_main.scss';
-@import './module/03_notice.scss';
-@import './module/04_collection.scss';
-@import './module/05_product.scss';
-@import './module/06_footer.scss';
+// @import './01_header.scss';
+// @import './02_main.scss';
+// @import './03_notice.scss';
+// @import './04_collection.scss';
+// @import './05_product.scss';
+// @import './06_footer.scss';
