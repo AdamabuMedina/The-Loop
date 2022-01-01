@@ -1,5 +1,5 @@
 @import '~normalize.css';
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
 @import './colors';
 
 body {
@@ -14,11 +14,11 @@ a {
 .page {
   padding-top: 100px;
   padding-bottom: 100px;
-  &-light {
+  &--light {
     background-color: $light;
   }
 
-  &-dark {
+  &--dark {
     background-color: $dark;
   }
 }
@@ -30,6 +30,18 @@ a {
   padding-right: 15px;
 }
 
+.btn {
+  background-color: $accent;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 18px 28px;
+  &--xs {
+    padding: 8px 28px;
+  }
+}
+
 @import './module/01_header.scss';
 @import './module/02_main.scss';
 @import './module/03_notice.scss';
+@import './module/04_collection.scss';
