@@ -11,8 +11,16 @@ a {
   text-decoration: none;
 }
 
-.page-light {
-  background-color: $light;
+.page {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  &-light {
+    background-color: $light;
+  }
+
+  &-dark {
+    background-color: $dark;
+  }
 }
 
 .wrapper {
@@ -24,3 +32,4 @@ a {
 
 @import './module/01_header.scss';
 @import './module/02_main.scss';
+@import './module/03_notice.scss';

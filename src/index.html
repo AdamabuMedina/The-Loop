@@ -7,13 +7,11 @@
     <title>The Loop</title>
   </head>
   <body>
-    <div class="page page-light">
-      <div class="wrapper">
-        <%= require('html-loader!./parts/01_header.html').default %>
-        <!---->
-        <%= require('html-loader!./parts/02_main.html').default %>
-        <!---->
-      </div>
-    </div>
+    <!--Header-->
+    <%= require('html-loader!./parts/01_header.html').default %>
+    <!--Main-->
+    <%= require('html-loader!./parts/02_main.html').default %>
+    <!--Notice-->
+    <%= require('html-loader!./parts/03_notice.html').default %>
   </body>
 </html>
