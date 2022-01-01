@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 @import './colors';
 
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
 body {
   font-size: 14px;
   font-family: 'Montserrat', sans-serif;
@@ -31,18 +37,19 @@ a {
 }
 
 .btn {
+  max-width: 100%;
   background-color: $accent;
   color: #fff;
   font-size: 16px;
   text-transform: uppercase;
   padding: 18px 28px;
   &--xs {
-    padding: 8px 28px;
+    padding: 5px 28px;
   }
   &--center {
     display: block;
     text-align: center;
-    width: 200px;
+    width: 220px;
     margin: 0 auto;
     span {
       margin-right: 15px;
@@ -55,3 +62,4 @@ a {
 @import './module/03_notice.scss';
 @import './module/04_collection.scss';
 @import './module/05_product.scss';
+@import './module/06_footer.scss';
