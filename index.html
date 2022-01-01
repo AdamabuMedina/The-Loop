@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>The Loop</title>
+  <script defer="defer" src="./js/main.js"></script><link href="./styles/main.css" rel="stylesheet"></head>
+  <body>
+    <!--Header-->
+    <div class="page--light">
+  <div class="wrapper">
+    <header class="header">
+      <nav class="header__nav">
+        <ul class="nav">
+          <li class="nav__item">
+            <a href="#" class="nav__link">Для мужчин</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Для женщин</a>
+          </li>
+          <li class="nav__item"><a href="#" class="nav__link">Для детей</a></li>
+        </ul>
+      </nav>
+      <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAxIiBoZWlnaHQ9IjQwIiB2aWV3Qm94PSIwIDAgMjAxIDQwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8ZyBjbGlwLXBhdGg9InVybCgjY2xpcDBfNF82MCkiPgo8cGF0aCBkPSJNOS4zMzg3OSAxNC43MjM1TDQuMDcyMjEgMTkuOTkwMUw5LjMzODc5IDI1LjI1NjZMMTQuNjA1NCAxOS45OTAxTDkuMzM4NzkgMTQuNzIzNVoiIGZpbGw9IiNEN0IzOTkiLz4KPHBhdGggZD0iTTE5Ljk5NDQgNC4wODU0MUwxNC43Mjc4IDkuMzUxOTlMMTkuOTk0NCAxNC42MTg2TDI1LjI2MSA5LjM1MTk5TDE5Ljk5NDQgNC4wODU0MVoiIGZpbGw9IiNEN0IzOTkiLz4KPHBhdGggZD0iTTE5Ljk5MTQgMjUuMzkzOEwxNC43MjQ4IDMwLjY2MDRMMTkuOTkxMyAzNS45MjdMMjUuMjU3OSAzMC42NjA0TDE5Ljk5MTQgMjUuMzkzOFoiIGZpbGw9IiNEN0IzOTkiLz4KPHBhdGggZD0iTTMwLjY0NyAxNC43MjY2TDI1LjM4MDQgMTkuOTkzMkwzMC42NDcgMjUuMjU5N0wzNS45MTM2IDE5Ljk5MzJMMzAuNjQ3IDE0LjcyNjZaIiBmaWxsPSIjRDdCMzk5Ii8+CjxwYXRoIGQ9Ik0yOC42MTAyIDEyLjY4NjZMMjMuMzQzNiAxNy45NTMyTDI1LjM4MjggMTkuOTkyM0wzMC42NDk0IDE0LjcyNThMMjguNjEwMiAxMi42ODY2WiIgZmlsbD0iI0Q3QjM5OSIvPgo8cGF0aCBkPSJNMTcuOTU0NyAyMy4zNTMyTDEyLjY4ODEgMjguNjE5OEwxNC43MjczIDMwLjY1OUwxOS45OTM4IDI1LjM5MjRMMTcuOTU0NyAyMy4zNTMyWiIgZmlsbD0iI0Q3QjM5OSIvPgo8cGF0aCBkPSJNMjUuMjU4NyA5LjM1Mjk5TDE5Ljk5MjEgMTQuNjE5NkwyMi4wMzEzIDE2LjY1ODdMMjcuMjk3OCAxMS4zOTIxTDI1LjI1ODcgOS4zNTI5OVoiIGZpbGw9IiNEN0IzOTkiLz4KPHBhdGggZD0iTTE0LjYxNzcgMjAuMDA1M0w5LjM1MTE2IDI1LjI3MTlMMTEuMzkwMyAyNy4zMTFMMTYuNjU2OSAyMi4wNDQ0TDE0LjYxNzcgMjAuMDA1M1oiIGZpbGw9IiNEN0IzOTkiLz4KPHBhdGggZD0iTTExLjM3ODggMTIuNjg2NEw5LjMzOTYxIDE0LjcyNTZMMTQuNjA2MiAxOS45OTIyTDE2LjY0NTMgMTcuOTUzTDExLjM3ODggMTIuNjg2NFoiIGZpbGw9IiNEN0IzOTkiLz4KPHBhdGggZD0iTTE0LjcyNyA5LjM0OTUzTDEyLjY4NzkgMTEuMzg4N0wxNy45NTQ0IDE2LjY1NTJMMTkuOTkzNiAxNC42MTYxTDE0LjcyNyA5LjM0OTUzWiIgZmlsbD0iI0Q3QjM5OSIvPgo8cGF0aCBkPSJNMjUuMzc5NiAxOS45OTA1TDIzLjM0MDUgMjIuMDI5NkwyOC42MDcgMjcuMjk2MkwzMC42NDYyIDI1LjI1N0wyNS4zNzk2IDE5Ljk5MDVaIiBmaWxsPSIjRDdCMzk5Ii8+CjxwYXRoIGQ9Ik0yMi4wNDYgMjMuMzQyTDIwLjAwNjkgMjUuMzgxMkwyNS4yNzM0IDMwLjY0NzdMMjcuMzEyNiAyOC42MDg2TDIyLjA0NiAyMy4zNDJaIiBmaWxsPSIjRDdCMzk5Ii8+CjxwYXRoIGQ9Ik0yNy4zMDI5IDMyLjY5NzFMMjUuMjY5NyAzMC42NjM5TDIwIDM1LjkzMzZMMTQuNzMwMyAzMC42NjM5TDEyLjY5NzEgMzIuNjk3MUwyMCA0MEwyNy4zMDI5IDMyLjY5NzFaIiBmaWxsPSIjRDdCMzk5Ii8+CjxwYXRoIGQ9Ik05LjMzNjEgMTQuNzMwM0w3LjMwMjkgMTIuNjk3MUwwIDIwTDcuMzAyOSAyNy4zMDI5TDkuMzM2MSAyNS4yNjk3TDQuMDY2MzkgMjBMOS4zMzYxIDE0LjczMDNaIiBmaWxsPSIjRDdCMzk5Ii8+CjxwYXRoIGQ9Ik0zMi42OTcxIDEyLjY5NzFMMzAuNjYzOSAxNC43MzAzTDM1LjkzMzYgMjBMMzAuNjYzOSAyNS4yNjk3TDMyLjY5NzEgMjcuMzAyOUw0MCAyMEwzMi42OTcxIDEyLjY5NzFaIiBmaWxsPSIjRDdCMzk5Ii8+CjxwYXRoIGQ9Ik0yNS4yNjk3IDkuMzM2MUwyNy4zMDI5IDcuMzAyOUwyMCAwTDEyLjY5NzEgNy4zMDI5TDE0LjczMDMgOS4zMzYxTDIwIDQuMDY2MzlMMjUuMjY5NyA5LjMzNjFaIiBmaWxsPSIjRDdCMzk5Ii8+CjwvZz4KPHBhdGggZD0iTTY1LjQ3MiAxNS4zNjhINjAuMDk2VjEyLjJINzQuNzM2VjE1LjM2OEg2OS4zNlYyOUg2NS40NzJWMTUuMzY4Wk05My40MzU5IDEyLjJWMjlIODkuNTQ3OVYyMi4xMTJIODEuOTE1OVYyOUg3OC4wMjc5VjEyLjJIODEuOTE1OVYxOC44MjRIODkuNTQ3OVYxMi4ySDkzLjQzNTlaTTExMS42MTkgMjUuODhWMjlIOTguNjEwOFYxMi4ySDExMS4zMDdWMTUuMzJIMTAyLjQ3NVYxOC45NjhIMTEwLjI3NVYyMS45OTJIMTAyLjQ3NVYyNS44OEgxMTEuNjE5Wk0xMjMuOTA5IDEyLjJIMTI3Ljc5N1YyNS44MzJIMTM2LjIyMVYyOUgxMjMuOTA5VjEyLjJaTTE0Ny40NDggMjkuMjg4QzE0NS43MDQgMjkuMjg4IDE0NC4xMjggMjguOTEyIDE0Mi43MiAyOC4xNkMxNDEuMzI4IDI3LjQwOCAxNDAuMjMyIDI2LjM3NiAxMzkuNDMyIDI1LjA2NEMxMzguNjQ4IDIzLjczNiAxMzguMjU2IDIyLjI0OCAxMzguMjU2IDIwLjZDMTM4LjI1NiAxOC45NTIgMTM4LjY0OCAxNy40NzIgMTM5LjQzMiAxNi4xNkMxNDAuMjMyIDE0LjgzMiAxNDEuMzI4IDEzLjc5MiAxNDIuNzIgMTMuMDRDMTQ0LjEyOCAxMi4yODggMTQ1LjcwNCAxMS45MTIgMTQ3LjQ0OCAxMS45MTJDMTQ5LjE5MiAxMS45MTIgMTUwLjc2IDEyLjI4OCAxNTIuMTUyIDEzLjA0QzE1My41NDQgMTMuNzkyIDE1NC42NCAxNC44MzIgMTU1LjQ0IDE2LjE2QzE1Ni4yNCAxNy40NzIgMTU2LjY0IDE4Ljk1MiAxNTYuNjQgMjAuNkMxNTYuNjQgMjIuMjQ4IDE1Ni4yNCAyMy43MzYgMTU1LjQ0IDI1LjA2NEMxNTQuNjQgMjYuMzc2IDE1My41NDQgMjcuNDA4IDE1Mi4xNTIgMjguMTZDMTUwLjc2IDI4LjkxMiAxNDkuMTkyIDI5LjI4OCAxNDcuNDQ4IDI5LjI4OFpNMTQ3LjQ0OCAyNS45NzZDMTQ4LjQ0IDI1Ljk3NiAxNDkuMzM2IDI1Ljc1MiAxNTAuMTM2IDI1LjMwNEMxNTAuOTM2IDI0Ljg0IDE1MS41NiAyNC4yIDE1Mi4wMDggMjMuMzg0QzE1Mi40NzIgMjIuNTY4IDE1Mi43MDQgMjEuNjQgMTUyLjcwNCAyMC42QzE1Mi43MDQgMTkuNTYgMTUyLjQ3MiAxOC42MzIgMTUyLjAwOCAxNy44MTZDMTUxLjU2IDE3IDE1MC45MzYgMTYuMzY4IDE1MC4xMzYgMTUuOTJDMTQ5LjMzNiAxNS40NTYgMTQ4LjQ0IDE1LjIyNCAxNDcuNDQ4IDE1LjIyNEMxNDYuNDU2IDE1LjIyNCAxNDUuNTYgMTUuNDU2IDE0NC43NiAxNS45MkMxNDMuOTYgMTYuMzY4IDE0My4zMjggMTcgMTQyLjg2NCAxNy44MTZDMTQyLjQxNiAxOC42MzIgMTQyLjE5MiAxOS41NiAxNDIuMTkyIDIwLjZDMTQyLjE5MiAyMS42NCAxNDIuNDE2IDIyLjU2OCAxNDIuODY0IDIzLjM4NEMxNDMuMzI4IDI0LjIgMTQzLjk2IDI0Ljg0IDE0NC43NiAyNS4zMDRDMTQ1LjU2IDI1Ljc1MiAxNDYuNDU2IDI1Ljk3NiAxNDcuNDQ4IDI1Ljk3NlpNMTY4Ljg5OCAyOS4yODhDMTY3LjE1NCAyOS4yODggMTY1LjU3OCAyOC45MTIgMTY0LjE3IDI4LjE2QzE2Mi43NzggMjcuNDA4IDE2MS42ODIgMjYuMzc2IDE2MC44ODIgMjUuMDY0QzE2MC4wOTggMjMuNzM2IDE1OS43MDYgMjIuMjQ4IDE1OS43MDYgMjAuNkMxNTkuNzA2IDE4Ljk1MiAxNjAuMDk4IDE3LjQ3MiAxNjAuODgyIDE2LjE2QzE2MS42ODIgMTQuODMyIDE2Mi43NzggMTMuNzkyIDE2NC4xNyAxMy4wNEMxNjUuNTc4IDEyLjI4OCAxNjcuMTU0IDExLjkxMiAxNjguODk4IDExLjkxMkMxNzAuNjQyIDExLjkxMiAxNzIuMjEgMTIuMjg4IDE3My42MDIgMTMuMDRDMTc0Ljk5NCAxMy43OTIgMTc2LjA5IDE0LjgzMiAxNzYuODkgMTYuMTZDMTc3LjY5IDE3LjQ3MiAxNzguMDkgMTguOTUyIDE3OC4wOSAyMC42QzE3OC4wOSAyMi4yNDggMTc3LjY5IDIzLjczNiAxNzYuODkgMjUuMDY0QzE3Ni4wOSAyNi4zNzYgMTc0Ljk5NCAyNy40MDggMTczLjYwMiAyOC4xNkMxNzIuMjEgMjguOTEyIDE3MC42NDIgMjkuMjg4IDE2OC44OTggMjkuMjg4Wk0xNjguODk4IDI1Ljk3NkMxNjkuODkgMjUuOTc2IDE3MC43ODYgMjUuNzUyIDE3MS41ODYgMjUuMzA0QzE3Mi4zODYgMjQuODQgMTczLjAxIDI0LjIgMTczLjQ1OCAyMy4zODRDMTczLjkyMiAyMi41NjggMTc0LjE1NCAyMS42NCAxNzQuMTU0IDIwLjZDMTc0LjE1NCAxOS41NiAxNzMuOTIyIDE4LjYzMiAxNzMuNDU4IDE3LjgxNkMxNzMuMDEgMTcgMTcyLjM4NiAxNi4zNjggMTcxLjU4NiAxNS45MkMxNzAuNzg2IDE1LjQ1NiAxNjkuODkgMTUuMjI0IDE2OC44OTggMTUuMjI0QzE2Ny45MDYgMTUuMjI0IDE2Ny4wMSAxNS40NTYgMTY2LjIxIDE1LjkyQzE2NS40MSAxNi4zNjggMTY0Ljc3OCAxNyAxNjQuMzE0IDE3LjgxNkMxNjMuODY2IDE4LjYzMiAxNjMuNjQyIDE5LjU2IDE2My42NDIgMjAuNkMxNjMuNjQyIDIxLjY0IDE2My44NjYgMjIuNTY4IDE2NC4zMTQgMjMuMzg0QzE2NC43NzggMjQuMiAxNjUuNDEgMjQuODQgMTY2LjIxIDI1LjMwNEMxNjcuMDEgMjUuNzUyIDE2Ny45MDYgMjUuOTc2IDE2OC44OTggMjUuOTc2Wk0xODkuNDg0IDEyLjJDMTkwLjk3MiAxMi4yIDE5Mi4yNiAxMi40NDggMTkzLjM0OCAxMi45NDRDMTk0LjQ1MiAxMy40NCAxOTUuMyAxNC4xNDQgMTk1Ljg5MiAxNS4wNTZDMTk2LjQ4NCAxNS45NjggMTk2Ljc4IDE3LjA0OCAxOTYuNzggMTguMjk2QzE5Ni43OCAxOS41MjggMTk2LjQ4NCAyMC42MDggMTk1Ljg5MiAyMS41MzZDMTk1LjMgMjIuNDQ4IDE5NC40NTIgMjMuMTUyIDE5My4zNDggMjMuNjQ4QzE5Mi4yNiAyNC4xMjggMTkwLjk3MiAyNC4zNjggMTg5LjQ4NCAyNC4zNjhIMTg2LjFWMjlIMTgyLjIxMlYxMi4ySDE4OS40ODRaTTE4OS4yNjggMjEuMkMxOTAuNDM2IDIxLjIgMTkxLjMyNCAyMC45NTIgMTkxLjkzMiAyMC40NTZDMTkyLjU0IDE5Ljk0NCAxOTIuODQ0IDE5LjIyNCAxOTIuODQ0IDE4LjI5NkMxOTIuODQ0IDE3LjM1MiAxOTIuNTQgMTYuNjMyIDE5MS45MzIgMTYuMTM2QzE5MS4zMjQgMTUuNjI0IDE5MC40MzYgMTUuMzY4IDE4OS4yNjggMTUuMzY4SDE4Ni4xVjIxLjJIMTg5LjI2OFoiIGZpbGw9IiMyMTIxMjEiLz4KPGRlZnM+CjxjbGlwUGF0aCBpZD0iY2xpcDBfNF82MCI+CjxyZWN0IHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgZmlsbD0id2hpdGUiLz4KPC9jbGlwUGF0aD4KPC9kZWZzPgo8L3N2Zz4K" alt="#" class="header__img">
+      <ul class="nav">
+        <li class="nav__item"><a href="#" class="nav__link">Оплата</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Доставка</a></li>
+      </ul>
+      <div class="cart">
+        <span class="cart__count">5</span>
+      </div>
+    </header>
+  </div>
+</div>
+
+    <!--Main-->
+    <div class="page page--light">
+  <div class="wrapper">
+    <div class="main">
+      <div class="main__item sale">
+        <p class="sale__description">Зимняя распродажа</p>
+        <h1 class="sale__title">СКИДКИ ДО 90%</h1>
+        <a href="#" class="btn">Смотреть модели</a>
+      </div>
+      <div class="main__item box">
+        <div class="box__price">
+          <strike class="box__price--old">9 900 ₽</strike>
+          <p class="box__price--new">1 900 ₽</p>
+        </div>
+        <img src="./img/shoes..png" alt="Shoes" class="box__img">
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!--Notice-->
+    <div class="page page--dark notice">
+  <div class="wrapper">
+    <h1 class="notice__title"><span>Бесплатная доставка</span> от 3000₽</h1>
+    <p class="notice__description">Сделайте заказ и получите подарок!</p>
+  </div>
+</div>
+
+    <!--Collection-->
+    <div class="page--light">
+  <div class="wrapper">
+    <div class="collection">
+      <div class="collection__item collection--man">
+        <h2 class="collection__title">Мужская коллекция</h2>
+        <p class="collection__description">Обувь, полуверы, костюмы</p>
+        <a href="#" class="btn btn--xs">
+          <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjEiIGhlaWdodD0iOCIgdmlld0JveD0iMCAwIDIxIDgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0yMC4zNTM2IDQuMzUzNTZDMjAuNTQ4OCA0LjE1ODI5IDIwLjU0ODggMy44NDE3MSAyMC4zNTM2IDMuNjQ2NDVMMTcuMTcxNiAwLjQ2NDQ2OEMxNi45NzYzIDAuMjY5MjA1IDE2LjY1OTcgMC4yNjkyMDUgMTYuNDY0NSAwLjQ2NDQ2OEMxNi4yNjkyIDAuNjU5NzMgMTYuMjY5MiAwLjk3NjMxMiAxNi40NjQ1IDEuMTcxNTdMMTkuMjkyOSA0TDE2LjQ2NDUgNi44Mjg0M0MxNi4yNjkyIDcuMDIzNjkgMTYuMjY5MiA3LjM0MDI3IDE2LjQ2NDUgNy41MzU1NEMxNi42NTk3IDcuNzMwOCAxNi45NzYzIDcuNzMwOCAxNy4xNzE2IDcuNTM1NTRMMjAuMzUzNiA0LjM1MzU2Wk0tNC4zNzExNGUtMDggNC41TDIwIDQuNUwyMCAzLjVMNC4zNzExNGUtMDggMy41TC00LjM3MTE0ZS0wOCA0LjVaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="arrow" class="collection__img">
+        </a>
+      </div>
+      <div class="collection__item collection--woman">
+        <h2 class="collection__title">Женская коллекция</h2>
+        <p class="collection__description">Обувь, полуверы, костюмы</p>
+        <a href="#" class="btn btn--xs">
+          <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjEiIGhlaWdodD0iOCIgdmlld0JveD0iMCAwIDIxIDgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0yMC4zNTM2IDQuMzUzNTZDMjAuNTQ4OCA0LjE1ODI5IDIwLjU0ODggMy44NDE3MSAyMC4zNTM2IDMuNjQ2NDVMMTcuMTcxNiAwLjQ2NDQ2OEMxNi45NzYzIDAuMjY5MjA1IDE2LjY1OTcgMC4yNjkyMDUgMTYuNDY0NSAwLjQ2NDQ2OEMxNi4yNjkyIDAuNjU5NzMgMTYuMjY5MiAwLjk3NjMxMiAxNi40NjQ1IDEuMTcxNTdMMTkuMjkyOSA0TDE2LjQ2NDUgNi44Mjg0M0MxNi4yNjkyIDcuMDIzNjkgMTYuMjY5MiA3LjM0MDI3IDE2LjQ2NDUgNy41MzU1NEMxNi42NTk3IDcuNzMwOCAxNi45NzYzIDcuNzMwOCAxNy4xNzE2IDcuNTM1NTRMMjAuMzUzNiA0LjM1MzU2Wk0tNC4zNzExNGUtMDggNC41TDIwIDQuNUwyMCAzLjVMNC4zNzExNGUtMDggMy41TC00LjM3MTE0ZS0wOCA0LjVaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="arrow" class="collection__img">
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!--Product-->
+    <div class="page">
+  <div class="wrapper">
+    <h2 class="title--h2">Новые модели</h2>
+    <div class="product">
+      <div class="product__item">
+        <img src="./img/product-1..png" alt="product" class="product__img">
+        <p class="product__title">Коктейльное <br>платье</p>
+        <p class="product__price">₽ 40 000</p>
+      </div>
+      <div class="product__item">
+        <img src="./img/product-2..png" alt="product" class="product__img">
+        <p class="product__title">Футболка <br>черная</p>
+        <p class="product__price">₽ 40 000</p>
+      </div>
+      <div class="product__item">
+        <img src="./img/product-1..png" alt="product" class="product__img">
+        <p class="product__title">Коктейльное <br>платье</p>
+        <p class="product__price">₽ 40 000</p>
+      </div>
+      <div class="product__item">
+        <img src="./img/product-2..png" alt="product" class="product__img">
+        <p class="product__title">Футболка <br>черная</p>
+        <p class="product__price">₽ 40 000</p>
+      </div>
+    </div>
+    <a href="#" class="btn btn--center"><span>Все модели</span><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjEiIGhlaWdodD0iOCIgdmlld0JveD0iMCAwIDIxIDgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0yMC4zNTM2IDQuMzUzNTZDMjAuNTQ4OCA0LjE1ODI5IDIwLjU0ODggMy44NDE3MSAyMC4zNTM2IDMuNjQ2NDVMMTcuMTcxNiAwLjQ2NDQ2OEMxNi45NzYzIDAuMjY5MjA1IDE2LjY1OTcgMC4yNjkyMDUgMTYuNDY0NSAwLjQ2NDQ2OEMxNi4yNjkyIDAuNjU5NzMgMTYuMjY5MiAwLjk3NjMxMiAxNi40NjQ1IDEuMTcxNTdMMTkuMjkyOSA0TDE2LjQ2NDUgNi44Mjg0M0MxNi4yNjkyIDcuMDIzNjkgMTYuMjY5MiA3LjM0MDI3IDE2LjQ2NDUgNy41MzU1NEMxNi42NTk3IDcuNzMwOCAxNi45NzYzIDcuNzMwOCAxNy4xNzE2IDcuNTM1NTRMMjAuMzUzNiA0LjM1MzU2Wk0tNC4zNzExNGUtMDggNC41TDIwIDQuNUwyMCAzLjVMNC4zNzExNGUtMDggMy41TC00LjM3MTE0ZS0wOCA0LjVaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="arrow"></a>
+  </div>
+</div>
+
+    <!--Footer-->
+    <div class="page--dark">
+  <div class="wrapper">
+    <footer class="footer">
+      <div class="footer__logo">
+        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAxIiBoZWlnaHQ9IjQwIiB2aWV3Qm94PSIwIDAgMjAxIDQwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8ZyBjbGlwLXBhdGg9InVybCgjY2xpcDBfN183MSkiPgo8cGF0aCBkPSJNOS4zMzg3OCAxNC43MjM0TDQuMDcyMiAxOS45OUw5LjMzODc4IDI1LjI1NjZMMTQuNjA1NCAxOS45OUw5LjMzODc4IDE0LjcyMzRaIiBmaWxsPSIjRDdCMzk5Ii8+CjxwYXRoIGQ9Ik0xOS45OTQ0IDQuMDg1NDhMMTQuNzI3OCA5LjM1MjA1TDE5Ljk5NDQgMTQuNjE4NkwyNS4yNjA5IDkuMzUyMDVMMTkuOTk0NCA0LjA4NTQ4WiIgZmlsbD0iI0Q3QjM5OSIvPgo8cGF0aCBkPSJNMTkuOTkxNCAyNS4zOTM4TDE0LjcyNDggMzAuNjYwNEwxOS45OTE0IDM1LjkyN0wyNS4yNTc5IDMwLjY2MDRMMTkuOTkxNCAyNS4zOTM4WiIgZmlsbD0iI0Q3QjM5OSIvPgo8cGF0aCBkPSJNMzAuNjQ3IDE0LjcyNjZMMjUuMzgwNCAxOS45OTMyTDMwLjY0NyAyNS4yNTk3TDM1LjkxMzYgMTkuOTkzMkwzMC42NDcgMTQuNzI2NloiIGZpbGw9IiNEN0IzOTkiLz4KPHBhdGggZD0iTTI4LjYxMDIgMTIuNjg2N0wyMy4zNDM2IDE3Ljk1MzJMMjUuMzgyOCAxOS45OTI0TDMwLjY0OTMgMTQuNzI1OEwyOC42MTAyIDEyLjY4NjdaIiBmaWxsPSIjRDdCMzk5Ii8+CjxwYXRoIGQ9Ik0xNy45NTQ3IDIzLjM1MzNMMTIuNjg4MSAyOC42MTk5TDE0LjcyNzMgMzAuNjU5TDE5Ljk5MzggMjUuMzkyNEwxNy45NTQ3IDIzLjM1MzNaIiBmaWxsPSIjRDdCMzk5Ii8+CjxwYXRoIGQ9Ik0yNS4yNTg3IDkuMzUzMDVMMTkuOTkyMSAxNC42MTk2TDIyLjAzMTMgMTYuNjU4OEwyNy4yOTc4IDExLjM5MjJMMjUuMjU4NyA5LjM1MzA1WiIgZmlsbD0iI0Q3QjM5OSIvPgo8cGF0aCBkPSJNMTQuNjE3NyAyMC4wMDUzTDkuMzUxMTQgMjUuMjcxOUwxMS4zOTAzIDI3LjMxMUwxNi42NTY5IDIyLjA0NDRMMTQuNjE3NyAyMC4wMDUzWiIgZmlsbD0iI0Q3QjM5OSIvPgo8cGF0aCBkPSJNMTEuMzc4NyAxMi42ODY0TDkuMzM5NiAxNC43MjU2TDE0LjYwNjIgMTkuOTkyMkwxNi42NDUzIDE3Ljk1M0wxMS4zNzg3IDEyLjY4NjRaIiBmaWxsPSIjRDdCMzk5Ii8+CjxwYXRoIGQ9Ik0xNC43MjcgOS4zNDk1M0wxMi42ODc5IDExLjM4ODdMMTcuOTU0NCAxNi42NTUyTDE5Ljk5MzYgMTQuNjE2MUwxNC43MjcgOS4zNDk1M1oiIGZpbGw9IiNEN0IzOTkiLz4KPHBhdGggZD0iTTI1LjM3OTYgMTkuOTkwNUwyMy4zNDA1IDIyLjAyOTdMMjguNjA3IDI3LjI5NjJMMzAuNjQ2MiAyNS4yNTcxTDI1LjM3OTYgMTkuOTkwNVoiIGZpbGw9IiNEN0IzOTkiLz4KPHBhdGggZD0iTTIyLjA0NiAyMy4zNDIxTDIwLjAwNjggMjUuMzgxMkwyNS4yNzM0IDMwLjY0NzhMMjcuMzEyNiAyOC42MDg3TDIyLjA0NiAyMy4zNDIxWiIgZmlsbD0iI0Q3QjM5OSIvPgo8cGF0aCBkPSJNMjcuMzAyOSAzMi42OTcxTDI1LjI2OTcgMzAuNjYzOUwyMCAzNS45MzM2TDE0LjczMDMgMzAuNjYzOUwxMi42OTcxIDMyLjY5NzFMMjAgNDBMMjcuMzAyOSAzMi42OTcxWiIgZmlsbD0iI0Q3QjM5OSIvPgo8cGF0aCBkPSJNOS4zMzYxIDE0LjczMDNMNy4zMDI5IDEyLjY5NzFMMCAyMEw3LjMwMjkgMjcuMzAzTDkuMzM2MSAyNS4yNjk4TDQuMDY2MzkgMjBMOS4zMzYxIDE0LjczMDNaIiBmaWxsPSIjRDdCMzk5Ii8+CjxwYXRoIGQ9Ik0zMi42OTcxIDEyLjY5NzFMMzAuNjYzOSAxNC43MzAzTDM1LjkzMzYgMjBMMzAuNjYzOSAyNS4yNjk4TDMyLjY5NzEgMjcuMzAzTDQwIDIwTDMyLjY5NzEgMTIuNjk3MVoiIGZpbGw9IiNEN0IzOTkiLz4KPHBhdGggZD0iTTI1LjI2OTcgOS4zMzYxTDI3LjMwMjkgNy4zMDI5TDIwIDBMMTIuNjk3MSA3LjMwMjlMMTQuNzMwMyA5LjMzNjFMMjAgNC4wNjYzOUwyNS4yNjk3IDkuMzM2MVoiIGZpbGw9IiNEN0IzOTkiLz4KPC9nPgo8cGF0aCBkPSJNNjUuNDcyIDE1LjM2OEg2MC4wOTZWMTIuMkg3NC43MzZWMTUuMzY4SDY5LjM2VjI5SDY1LjQ3MlYxNS4zNjhaTTkzLjQzNTkgMTIuMlYyOUg4OS41NDc5VjIyLjExMkg4MS45MTU5VjI5SDc4LjAyNzlWMTIuMkg4MS45MTU5VjE4LjgyNEg4OS41NDc5VjEyLjJIOTMuNDM1OVpNMTExLjYxOSAyNS44OFYyOUg5OC42MTA4VjEyLjJIMTExLjMwN1YxNS4zMkgxMDIuNDc1VjE4Ljk2OEgxMTAuMjc1VjIxLjk5MkgxMDIuNDc1VjI1Ljg4SDExMS42MTlaTTEyMy45MDkgMTIuMkgxMjcuNzk3VjI1LjgzMkgxMzYuMjIxVjI5SDEyMy45MDlWMTIuMlpNMTQ3LjQ0OCAyOS4yODhDMTQ1LjcwNCAyOS4yODggMTQ0LjEyOCAyOC45MTIgMTQyLjcyIDI4LjE2QzE0MS4zMjggMjcuNDA4IDE0MC4yMzIgMjYuMzc2IDEzOS40MzIgMjUuMDY0QzEzOC42NDggMjMuNzM2IDEzOC4yNTYgMjIuMjQ4IDEzOC4yNTYgMjAuNkMxMzguMjU2IDE4Ljk1MiAxMzguNjQ4IDE3LjQ3MiAxMzkuNDMyIDE2LjE2QzE0MC4yMzIgMTQuODMyIDE0MS4zMjggMTMuNzkyIDE0Mi43MiAxMy4wNEMxNDQuMTI4IDEyLjI4OCAxNDUuNzA0IDExLjkxMiAxNDcuNDQ4IDExLjkxMkMxNDkuMTkyIDExLjkxMiAxNTAuNzYgMTIuMjg4IDE1Mi4xNTIgMTMuMDRDMTUzLjU0NCAxMy43OTIgMTU0LjY0IDE0LjgzMiAxNTUuNDQgMTYuMTZDMTU2LjI0IDE3LjQ3MiAxNTYuNjQgMTguOTUyIDE1Ni42NCAyMC42QzE1Ni42NCAyMi4yNDggMTU2LjI0IDIzLjczNiAxNTUuNDQgMjUuMDY0QzE1NC42NCAyNi4zNzYgMTUzLjU0NCAyNy40MDggMTUyLjE1MiAyOC4xNkMxNTAuNzYgMjguOTEyIDE0OS4xOTIgMjkuMjg4IDE0Ny40NDggMjkuMjg4Wk0xNDcuNDQ4IDI1Ljk3NkMxNDguNDQgMjUuOTc2IDE0OS4zMzYgMjUuNzUyIDE1MC4xMzYgMjUuMzA0QzE1MC45MzYgMjQuODQgMTUxLjU2IDI0LjIgMTUyLjAwOCAyMy4zODRDMTUyLjQ3MiAyMi41NjggMTUyLjcwNCAyMS42NCAxNTIuNzA0IDIwLjZDMTUyLjcwNCAxOS41NiAxNTIuNDcyIDE4LjYzMiAxNTIuMDA4IDE3LjgxNkMxNTEuNTYgMTcgMTUwLjkzNiAxNi4zNjggMTUwLjEzNiAxNS45MkMxNDkuMzM2IDE1LjQ1NiAxNDguNDQgMTUuMjI0IDE0Ny40NDggMTUuMjI0QzE0Ni40NTYgMTUuMjI0IDE0NS41NiAxNS40NTYgMTQ0Ljc2IDE1LjkyQzE0My45NiAxNi4zNjggMTQzLjMyOCAxNyAxNDIuODY0IDE3LjgxNkMxNDIuNDE2IDE4LjYzMiAxNDIuMTkyIDE5LjU2IDE0Mi4xOTIgMjAuNkMxNDIuMTkyIDIxLjY0IDE0Mi40MTYgMjIuNTY4IDE0Mi44NjQgMjMuMzg0QzE0My4zMjggMjQuMiAxNDMuOTYgMjQuODQgMTQ0Ljc2IDI1LjMwNEMxNDUuNTYgMjUuNzUyIDE0Ni40NTYgMjUuOTc2IDE0Ny40NDggMjUuOTc2Wk0xNjguODk4IDI5LjI4OEMxNjcuMTU0IDI5LjI4OCAxNjUuNTc4IDI4LjkxMiAxNjQuMTcgMjguMTZDMTYyLjc3OCAyNy40MDggMTYxLjY4MiAyNi4zNzYgMTYwLjg4MiAyNS4wNjRDMTYwLjA5OCAyMy43MzYgMTU5LjcwNiAyMi4yNDggMTU5LjcwNiAyMC42QzE1OS43MDYgMTguOTUyIDE2MC4wOTggMTcuNDcyIDE2MC44ODIgMTYuMTZDMTYxLjY4MiAxNC44MzIgMTYyLjc3OCAxMy43OTIgMTY0LjE3IDEzLjA0QzE2NS41NzggMTIuMjg4IDE2Ny4xNTQgMTEuOTEyIDE2OC44OTggMTEuOTEyQzE3MC42NDIgMTEuOTEyIDE3Mi4yMSAxMi4yODggMTczLjYwMiAxMy4wNEMxNzQuOTk0IDEzLjc5MiAxNzYuMDkgMTQuODMyIDE3Ni44OSAxNi4xNkMxNzcuNjkgMTcuNDcyIDE3OC4wOSAxOC45NTIgMTc4LjA5IDIwLjZDMTc4LjA5IDIyLjI0OCAxNzcuNjkgMjMuNzM2IDE3Ni44OSAyNS4wNjRDMTc2LjA5IDI2LjM3NiAxNzQuOTk0IDI3LjQwOCAxNzMuNjAyIDI4LjE2QzE3Mi4yMSAyOC45MTIgMTcwLjY0MiAyOS4yODggMTY4Ljg5OCAyOS4yODhaTTE2OC44OTggMjUuOTc2QzE2OS44OSAyNS45NzYgMTcwLjc4NiAyNS43NTIgMTcxLjU4NiAyNS4zMDRDMTcyLjM4NiAyNC44NCAxNzMuMDEgMjQuMiAxNzMuNDU4IDIzLjM4NEMxNzMuOTIyIDIyLjU2OCAxNzQuMTU0IDIxLjY0IDE3NC4xNTQgMjAuNkMxNzQuMTU0IDE5LjU2IDE3My45MjIgMTguNjMyIDE3My40NTggMTcuODE2QzE3My4wMSAxNyAxNzIuMzg2IDE2LjM2OCAxNzEuNTg2IDE1LjkyQzE3MC43ODYgMTUuNDU2IDE2OS44OSAxNS4yMjQgMTY4Ljg5OCAxNS4yMjRDMTY3LjkwNiAxNS4yMjQgMTY3LjAxIDE1LjQ1NiAxNjYuMjEgMTUuOTJDMTY1LjQxIDE2LjM2OCAxNjQuNzc4IDE3IDE2NC4zMTQgMTcuODE2QzE2My44NjYgMTguNjMyIDE2My42NDIgMTkuNTYgMTYzLjY0MiAyMC42QzE2My42NDIgMjEuNjQgMTYzLjg2NiAyMi41NjggMTY0LjMxNCAyMy4zODRDMTY0Ljc3OCAyNC4yIDE2NS40MSAyNC44NCAxNjYuMjEgMjUuMzA0QzE2Ny4wMSAyNS43NTIgMTY3LjkwNiAyNS45NzYgMTY4Ljg5OCAyNS45NzZaTTE4OS40ODQgMTIuMkMxOTAuOTcyIDEyLjIgMTkyLjI2IDEyLjQ0OCAxOTMuMzQ4IDEyLjk0NEMxOTQuNDUyIDEzLjQ0IDE5NS4zIDE0LjE0NCAxOTUuODkyIDE1LjA1NkMxOTYuNDg0IDE1Ljk2OCAxOTYuNzggMTcuMDQ4IDE5Ni43OCAxOC4yOTZDMTk2Ljc4IDE5LjUyOCAxOTYuNDg0IDIwLjYwOCAxOTUuODkyIDIxLjUzNkMxOTUuMyAyMi40NDggMTk0LjQ1MiAyMy4xNTIgMTkzLjM0OCAyMy42NDhDMTkyLjI2IDI0LjEyOCAxOTAuOTcyIDI0LjM2OCAxODkuNDg0IDI0LjM2OEgxODYuMVYyOUgxODIuMjEyVjEyLjJIMTg5LjQ4NFpNMTg5LjI2OCAyMS4yQzE5MC40MzYgMjEuMiAxOTEuMzI0IDIwLjk1MiAxOTEuOTMyIDIwLjQ1NkMxOTIuNTQgMTkuOTQ0IDE5Mi44NDQgMTkuMjI0IDE5Mi44NDQgMTguMjk2QzE5Mi44NDQgMTcuMzUyIDE5Mi41NCAxNi42MzIgMTkxLjkzMiAxNi4xMzZDMTkxLjMyNCAxNS42MjQgMTkwLjQzNiAxNS4zNjggMTg5LjI2OCAxNS4zNjhIMTg2LjFWMjEuMkgxODkuMjY4WiIgZmlsbD0id2hpdGUiLz4KPGRlZnM+CjxjbGlwUGF0aCBpZD0iY2xpcDBfN183MSI+CjxyZWN0IHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgZmlsbD0id2hpdGUiLz4KPC9jbGlwUGF0aD4KPC9kZWZzPgo8L3N2Zz4K" alt="footer__logo" class="footer__img">
+      </div>
+      <div class="footer__nav">
+        <ul class="footer__list">
+          <li class="footer__list--item footer__list--title">
+            Основные ссылки
+          </li>
+          <li class="footer__list--item">
+            <a href="#" class="footer__list--link">О компании</a>
+          </li>
+          <li class="footer__list--item">
+            <a href="#" class="footer__list--link">Каталог</a>
+          </li>
+          <li class="footer__list--item">
+            <a href="#" class="footer__list--link">Доставка</a>
+          </li>
+          <li class="footer__list--item">
+            <a href="#" class="footer__list--link">Оплата</a>
+          </li>
+        </ul>
+        <ul class="footer__list">
+          <li class="footer__list--item footer__list--title">Категории</li>
+          <li class="footer__list--item">
+            <a href="#" class="footer__list--link">Мужская одежда</a>
+          </li>
+          <li class="footer__list--item">
+            <a href="#" class="footer__list--link">Женская одежда</a>
+          </li>
+          <li class="footer__list--item">
+            <a href="#" class="footer__list--link">Детская одежда</a>
+          </li>
+          <li class="footer__list--item">
+            <a href="#" class="footer__list--link">Для животных</a>
+          </li>
+        </ul>
+        <ul class="footer__list">
+          <li class="footer__list--item footer__list--title">
+            Полезные ссылки
+          </li>
+          <li class="footer__list--item">
+            <a href="#" class="footer__list--link">Таблица размеров</a>
+          </li>
+          <li class="footer__list--item">
+            <a href="#" class="footer__list--link">Блог о моде</a>
+          </li>
+          <li class="footer__list--item">
+            <a href="#" class="footer__list--link">Наша миссия</a>
+          </li>
+        </ul>
+        <ul class="footer__list">
+          <li class="footer__list--item footer__list--title">Соц Сети</li>
+          <li class="footer__list--item social social--vk">
+            <a href="#" class="footer__list--link">VK.com</a>
+          </li>
+          <li class="footer__list--item social social--facebook">
+            <a href="#" class="footer__list--link">Facebook</a>
+          </li>
+          <li class="footer__list--item social social--instagram">
+            <a href="#" class="footer__list--link">Instagram</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+</div>
+
+  </body>
+</html>
