@@ -1,0 +1,31 @@
+.title--h2 {
+  text-align: center;
+  font-size: 36px;
+}
+.product {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  &__item {
+    flex: 0 0 24%;
+  }
+  &__title {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  &__price {
+    color: $accent;
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
+// .product {
+// }
+// .product__img {
+// }
+// .product {
+// }
+// .product__price {
+// }
